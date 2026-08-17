@@ -1,4 +1,4 @@
-import QuickShell
+import Quickshell
 import QtQuick
 
 FloatingWindow {
@@ -10,6 +10,6 @@ FloatingWindow {
         anchors.centerIn: parent
         color: "#ee22ee"
         font.pixelSize: 18
-        text: "Hello, QuickShell"
+        text: "Hello, Quickshell"
     }
 }
