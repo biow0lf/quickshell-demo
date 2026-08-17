@@ -15,4 +15,10 @@ PanelWindow {
         left: true
         right: true
     }
+
+    color: "transparent"
+
+    property string searchQuery: ""
+    property int selectedIndex: 0
+    readonly property bool isSelected: searchQuery.trim() !== ""
 }
